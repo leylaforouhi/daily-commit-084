@@ -1,2 +1,6 @@
-# daily-commit-084
-My eighty-fourth daily GitHub activity repository
+def reverse_list(lst):
+    return lst[::-1]
+
+if __name__ == "__main__":
+    sample = [1, 2, 3, 4, 5]
+    print(f"Reversed list: {reverse_list(sample)}")
